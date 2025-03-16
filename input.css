@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+
+
+
+/* <body class="bg-gray-100 flex">
+
+    <!-- Sidebar -->
+    <aside class="bg-blue-700 text-white w-64 min-h-screen p-6">
+        <h2 class="text-xl font-semibold mb-6">Dashboard</h2>
+        <nav class="space-y-4">
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>🏠</span> <span>Home</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>👤</span> <span>Profile</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>✉️</span> <span>Messages</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>📜</span> <span>History</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>✅</span> <span>Tasks</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>👥</span> <span>Communities</span>
+            </a>
+        </nav>
+        
+        <div class="mt-10 space-y-4">
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>⚙️</span> <span>Settings</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>🆘</span> <span>Support</span>
+            </a>
+            <a href="#" class="flex items-center space-x-2 p-2 rounded-md hover:bg-blue-600">
+                <span>🔒</span> <span>Privacy</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+        <!-- Top Navigation Bar -->
+        <div class="bg-white rounded-lg shadow-md p-4 flex justify-between items-center mb-6">
+            <div class="flex items-center space-x-4">
+                <img src="https://via.placeholder.com/50" class="w-12 h-12 rounded-full" alt="User">
+                <div>
+                    <p class="text-gray-500 text-sm">Hi there,</p>
+                    <h2 class="font-semibold">Morgan Oakley (@morgan)</h2>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md">New</button>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md">Upload</button>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md">Share</button>
+            </div>
+        </div>
+
+        <!-- Dashboard Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Projects Section -->
+            <div class="lg:col-span-9">
+                <h2 class="text-lg font-semibold mb-4">Your Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <!-- Project Cards -->
+                    <div class="bg-white p-4 rounded-xl shadow-md border-l-4 border-yellow-500">
+                        <h3 class="font-semibold">Super Cool Project</h3>
+                        <p class="text-sm text-gray-600">Sed tempus ut lacus ut scelerisque...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-xl shadow-md border-l-4 border-yellow-500">
+                        <h3 class="font-semibold">Less Cool Project</h3>
+                        <p class="text-sm text-gray-600">Nullam condimentum ipsum ut lectus...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-xl shadow-md">
+                        <h3 class="font-semibold">Impossible App</h3>
+                        <p class="text-sm text-gray-600">In hac habitasse platea dictumst...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-xl shadow-md">
+                        <h3 class="font-semibold">Easy Peasy App</h3>
+                        <p class="text-sm text-gray-600">Etiam cursus eros ac efficitur...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-xl shadow-md">
+                        <h3 class="font-semibold">Ad Blocker</h3>
+                        <p class="text-sm text-gray-600">Quisque eget rutrum nisl...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-xl shadow-md">
+                        <h3 class="font-semibold">Money Maker</h3>
+                        <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet...</p>
+                        <div class="flex justify-end space-x-2 mt-3 text-gray-500">
+                            <span>⭐</span> <span>👀</span> <span>🔗</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="lg:col-span-3">
+                
+                <!-- Announcements -->
+                <h2 class="text-lg font-semibold mb-4">Announcements</h2>
+                <div class="bg-white p-4 rounded-xl shadow-md space-y-4">
+                    <div>
+                        <h3 class="font-semibold">Site Maintenance</h3>
+                        <p class="text-sm text-gray-600">Vestibulum condimentum tellus lacus...</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3 class="font-semibold">Community Share Day</h3>
+                        <p class="text-sm text-gray-600">Nam vel lectus tincidunt, rutrum nulla...</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3 class="font-semibold">Updated Privacy Policy</h3>
+                        <p class="text-sm text-gray-600">Phasellus efficitur nisi eget elit consectetur...</p>
+                    </div>
+                </div>
+
+                <!-- Trending -->
+                <h2 class="text-lg font-semibold mt-6 mb-4">Trending</h2>
+                <div class="bg-white p-4 rounded-xl shadow-md space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <img src="https://via.placeholder.com/40" class="w-10 h-10 rounded-full">
+                        <div>
+                            <h3 class="font-semibold">@tegan</h3>
+                            <p class="text-sm text-gray-600">World Peace Builder</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+</body> */
